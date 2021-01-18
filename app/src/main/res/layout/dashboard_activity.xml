@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="vertical">
+
+    <!--FRAME BUTTON-->
+    <include layout="@layout/slider"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coorLayout2"
+        android:background="@drawable/half_rounded_grey"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:id="@+id/successLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/success1"
+            android:text="Terima kasih atas pengajuan kredit bersama kami, \n aplikasi anda sedang di proses."
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+<!--        <HorizontalScrollView-->
+<!--            android:id="@+id/hsv"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:fillViewport="true"-->
+<!--            android:measureAllChildren="false"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:scrollbars="none" >-->
+
+        <LinearLayout
+            android:id="@+id/dash1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/success1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+           <!-- <LinearLayout
+                android:id="@+id/linearmenu1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lihatrentalimg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_newdoc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Pengajuan Awal"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearmenu2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pengajuanimg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_building" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Input Data Jaminan"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearmenu3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/panduanTransferImg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_suitcase" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Input Data Usaha"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearmenu4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/panduanTransferImg2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_document" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Daftar Data Jaminan"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>-->
+
+        </LinearLayout>
+<!--        </HorizontalScrollView>-->
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/half_rounded"
+        android:id="@+id/layoutLatestTask"
+        android:layout_marginTop="-15dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/half_rounded"
+            android:id="@+id/linearTitleSwipe"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:tint="@color/grey"
+                android:src="@drawable/ic_refresh"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:textColor="@color/grey"
+                android:text="pull down to refresh"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"
+            android:text="@string/latestTask"/>
+
+        <TextView
+            android:id="@+id/txtSeeAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="2"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:textColor="@color/textLink"
+            android:text="@string/seeall"/>
+    </LinearLayout>
+
+    <!--FRAME UNTUK DASHBOARD LIST-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:id="@+id/linearRecycle"
+            android:orientation="vertical">
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/swiperefresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/taskListRecycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="100dp"
+                    android:background="@color/white"></android.support.v7.widget.RecyclerView>
+                </android.support.v4.widget.SwipeRefreshLayout>
+    </FrameLayout>
+        </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Generic -->
+    <string name="buttonBack">KEMBALI</string>
+    <string name="buttonContinue">LANJUT</string>
+    <string name="buttonDelete">HAPUS</string>
+    <string name="buttonDownload">UNDUH</string>
+    <string name="buttonUpload">UNGGAH</string>
+    <string name="buttonChoose">PILIH</string>
+
+    <string name="language">EN</string>
+    <string name="userName">Nama Pengguna</string>
+
+    <string name="buttonLogin">Sign In</string>
+    <string name="buttonMasuk">Masuk</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonClose">Close</string>
+    <string name="buttonTutup">Tutup</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="buttonPerbarui">Perbarui</string>
+    <string name="buttonBatal">Batal</string>
+    <string name="buttonSave">Save</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="buttonAssign">Assign</string>
+    <string name="buttonSimpan">Simpan</string>
+    <string name="buttonYa">Ya</string>
+    <string name="buttonYes">Yes</string>
+    <string name="buttonNo">No</string>
+    <string name="buttonTidak">Tidak</string>
+    <string name="buttonNext">Next</string>
+    <string name="buttonKeluar">Keluar</string>
+    <string name="buttonLogout">Sign Out</string>
+    <string name="titleSetting">Setting</string>
+    <string name="titleProfile">Profile</string>
+    <string name="titleProfil">Profil</string>
+    <string name="doubleBackPressConfirmation">Tekan KEMBALI sekali lagi untuk keluar</string>
+    <!--         -->
+
+    <!-- Error -->
+    <!--<string name="errorEmpty">Data Tidak Ditemukan</string>-->
+    <string name="errorNoPayment">Nasabah Belum Melakukan Pembayaran</string>
+    <string name="errorSubmit">Beberapa Task Mengalami Gagal Unggah.. Harap dicoba kembali.</string>
+    <string name="errorInvalidApp">Aplikasi yang digunakan salah</string>
+    <string name="errorInvalidDevice">Anda Terdaftar diperangkat Lain Harap Sign In Kembali</string>
+    <string name="errorEmptyField">Mohon Isi Semua Kolom</string>
+    <string name="errorEmptyPassword">Kata Sandi Tidak Boleh Kosong</string>
+    <string name="errorEmptyData">Nomer Handphhone Atau Sandi Salah!</string>
+    <string name="errorInactive">Anda Sudah Tidak Aktif</string>
+    <string name="errorGps">Mohon menyalakan fungsi lokasi(GPS) untuk menggunakan aplikasi ini</string>
+    <!--<string name="registerUnauthorized">Salah Nama Pengguna atau Kata Sandi, atau Anda tidak memiliki Hak Akses</string>-->
+    <!--<string name="errorEmptyCode">Harap memilih Status Panggilan dan Rincian Panggilan</string>-->
+    <!--<string name="errorEmptyPtp">Harap mengisi Tanggal Janji Bayar</string>-->
+    <string name="errorEmptyNote">Harap mengisi Catatan</string>
+    <!--<string name="errorDate">Tanggal Janji Bayar tidak boleh lebih kecil dari Tanggal Penanganan</string>-->
+    <!--<string name="errorBackend">Mohon kontak helpdesk cek sistem.</string>-->
+    <!--<string name="errorConnection">Tidak terhubung dengan sistem. Silakan dicoba beberapa saat lagi.</string>-->
+    <!--<string name="errorIncompatibleVersion">Sudah tersedia versi lebih baru. Silakan perbarui aplikasi ini.</string>-->
+    <string name="dialogMessageIncompatibleVersion">Terdapat Masalah Pada Versi Aplikasi</string>
+    <string name="dialogMessageLoading">Harap Tunggu..</string>
+    <string name="dialogErrorSignIn">Anda Harus Melakukan Sign In Kembali Setiap Hari!</string>
+    <string name="dialogUpload">Anda Yakin Ingin Mengunggah?</string>
+    <string name="dialogErrorRefresh">Anda Harus Melakukan Submit Terlebih Dahulu!</string>
+    <string name="errorMandatoryPhoto">Mohon melengkapi data </string>
+    <string name="errorEmptyCheckList">Harap pilih satu atau lebih kontrak yang ingin di ambil </string>
+    <string name="errorBackend2">Mohon Coba Kembali Beberapa Saat Kemudian. Terima Kasih.</string>
+    <string name="isnotemployee">Mohon Maaf Anda tidak diijinkan menggunakan Aplikasi ini</string>
+    <string name="isnotconnecthrd">Pengecekan Status Karyawan Anda Gagal, Harap Ulangi beberapa saat lagi</string>
+    <string name="isresign">Mohon Maaf Anda telah Resign dan tidak di ijinkan menggunakan Aplikasi ini</string>
+    <string name="ismutasi">Mohon Maaf Anda tidak di ijinkan menggunakan Aplikasi ini</string>
+    <string name="role_differens">Mohon Maaf Anda tidak di ijinkan menggunakan Aplikasi ini , Karena Anda Bukan Credit Committee, Terima Kasih</string>
+    <string name="googlePlayConnected">Google Play Services terhubung</string>
+    <string name="errorGooglePlayConnection">Koneksi dengan Google Play Services gagal</string>
+    <string name="errorGooglePlayNotFound">Google Play Services tidak terdeteksi</string>
+    <string name="askPin">Pin</string>
+    <string name="askPinInfo">Masukkan pin dari akun anda</string>
+    <string name="askPinInfo2">Pin terdiri dari 4 angka</string>
+    <string name="askPinPin">Pin</string>
+    <string name="askPinUnauthorized">Salah Pin</string>
+    <!--       -->
+    <string name="menuRegister">Registrasi</string>
+    <string name="menuUnregister">Keluar</string>
+    <string name="menuChangePin">Ubah Pin</string>
+    <string name="menuChangePassword">Ubah Kata Sandi</string>
+    <string name="menuAbout">Tentang</string>
+    <string name="menuHelp">Bantuan</string>
+
+    <string name="errorLogineveryDay">Anda Harus Melakukan Sign In Kembali Setiap Hari!</string>
+
+    <string name="noHp">Nomer Handphone</string>
+
+
+
+    <string name="askInputPPK">Maaf Tolong Input Nomor PPK</string>
+    <string name="duplicatesubmit">Anda Sudah Pernah Merequest Ini Sebelumnya</string>
+    <string name="submitmorethan3perhour">Maaf, Anda sudah melebihi batas pencarian 3 kali dalam 1 jam</string>
+    <string name="submitmorethan3perday">Maaf, Anda sudah melebihi batas pencarian 3 kali dalam 1 hari</string>
+    <string name="ppkqueued">PPK ini masih dalam status queued, Harap menunggu hingga completed</string>
+    <string name="ppksuccessadded">PPK anda berhasil ditambahkan ke list.</string>
+    <string name="succedregister">Data registrasi anda berhasil terkirim, mohon tunggu konfirmasi e-mail untuk login.</string>
+
+    <string name="askRefNumb"> Anda bukan debitur Sinarmas Multifinance. Silahkan hubungi kantor Sinarmas Multifinance terdekat untuk mendapatkan Kode Agent. </string>
+    <string name="askpilihKota"> Mohon pilih provinsi/kota cabang yang ingin dicari. </string>
+    <string name="posisi">Posisi</string>
+    <string name="tglMulai">Tanggal Mulai</string>
+    <string name="diproses">Diproses Oleh</string>
+    <string name="lamaproses">Lama Proses</string>
+
+
+
+
+</resources>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearImgProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/half_rounded_grey"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgDataNama"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_profile"
+            android:layout_alignTop="@+id/linearImgProfile"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tap to edit"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/layoutScrollPribadi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/half_rounded"
+        android:layout_below="@+id/linearImgProfile">
+
+        <RelativeLayout
+            android:id="@+id/form_data_pribadi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textGantiPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/gantipass"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearoutnama"
+                android:layout_below="@+id/textGantiPass"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/blue_end"
+                    android:src="@drawable/ic_profile_name"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearnama"
+                android:layout_below="@+id/textGantiPass"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleDataNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/titleNama"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/etDataNama"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/titleDataNama"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:hint="@string/hintNama"
+                android:inputType="text"
+                android:nextFocusDown="@+id/etDataNoHp"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearoutcabang"
+                android:layout_below="@+id/linearoutnama"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:tint="@color/blue_end"
+                android:src="@drawable/ic_profile_cabang"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearcabang"
+                android:layout_below="@+id/textGantiPass"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/titleDataNobranch"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/linearoutnama"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/titleBranchName"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/etDataNoHp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/titleDataNobranch"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/hintNoHp"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearoutgroup"
+                android:layout_below="@+id/linearoutcabang"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:tint="@color/blue_end"
+                android:src="@drawable/ic_profile_group"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lineargroup"
+                android:layout_below="@+id/textGantiPass"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/titleDataNoKTP"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/linearoutcabang"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/titleGroupname"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/etDataKTP"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/titleDataNoKTP"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/hintNoHp"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

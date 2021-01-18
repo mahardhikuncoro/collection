@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#AA1414</color>-->
+    <!--<color name="colorPrimaryDark">#5D5D5D</color>-->
+    <!--<color name="colorAccent">#AA1414</color>-->
+
+    <!--<color name="stylePrimary">#AA1414</color>-->
+    <!--<color name="stylePrimaryDark">#AA1414</color>-->
+
+    <!--<color name="styleWindowBackground">#FFFFFF</color>-->
+
+    <color name="tabTitle">#c6b5b5</color>
+    <color name="tabSelected">#060606</color>
+
+    <!--<color name="slidingTabText">#FFFFFF</color>-->
+    <!--<color name="slidingTabBackground">#D32F2F</color>-->
+    <!--<color name="slidingTabBackgroundWindow">#FFFFFF</color>-->
+    <!--<color name="slidingTabIndicator">#FFFFFF</color>-->
+
+    <!--<color name="colorBlack">#000000</color>-->
+    <!--<color name="cardText">#000000</color>-->
+    <!--<color name="colorWhite">#FFFFFF</color>-->
+    <!--<color name="textHint">#999999</color>-->
+
+
+    <!--<color name="navigationDrawerText">#000000</color>-->
+    <!--<color name="navigationDrawerTextHeader">#000000</color>-->
+    <!--<color name="navigationDrawerBackground">#FFFFFF</color>-->
+    <!--<color name="navigationDrawerBackgroundSelected">#FFFFFF</color>-->
+    <!--<color name="navigationDrawerDivider">#999999</color>-->
+    <!--<color name="navigationDrawerEmpty">#FFFFFF</color>-->
+
+    <!--<color name="textNormal">#000000</color>-->
+    <!--<color name="textButton">#FFFFFF</color>-->
+    <!--<color name="button">#AA1414</color>-->
+    <color name="textSplash">#FFFFFF</color>
+
+
+    <!--<color name="listText">#000000</color>-->
+    <!--<color name="listDivider">#000000</color>-->
+
+    <!--<color name="white">#FFFFFF</color>-->
+    <!--<color name="black">#000000</color>-->
+    <!--<color name="red">#AA1414</color>-->
+    <!--<color name="grey">#999999</color>-->
+
+    <!--<color name="styleApplyList_Accent">#a51116</color>-->
+    <!--<color name="styleApplyList_ControlNormal">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_ControlActivated">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_ControlHighlight">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_Primary">#AA1414</color>-->
+    <!--<color name="styleApplyList_PrimaryDark">#AA1414</color>-->
+    <!--<color name="styleApplyList_DrawerArrow">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_TextPrimary">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_TextSecondary">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_WindowBackground">#FFFFFF</color>-->
+    <!--<color name="styleApplyList_NavigationBarColor">#AA1414</color>-->
+    <!--<color name="styleApplyDetail_Accent">#D32F2F</color>-->
+    <!--<color name="toolbarBackground">#a51116</color>-->
+
+    <!--<color name="toolbarTransparent">#00000000</color>-->
+    <!--<color name="apply_kontakBackground">#FFFFFF</color>-->
+    <!--<color name="apply_kontakText">#000000</color>-->
+    <!--<color name="apply_kontakTextButton">#FFFFFF</color>-->
+    <!--<color name="apply_kontakButton">#AA1414</color>-->
+    <!--<color name="detail_antarKontrak">#FFFFFF</color>-->
+    <!--<color name="apply_kendaraanText">#000000</color>-->
+    <!--<color name="apply_kendaraanTextButton">#FFFFFF</color>-->
+    <!--<color name="apply_kendaraanButton">#AA1414</color>-->
+<!---->
+    <!--<color name="apply_kendaraanBackground">#FFFFFF</color>-->
+
+    <!-- getBase FAB -->
+    <!--<color name="black_semi_transparent">#B2000000</color>-->
+    <!--<color name="fab_disabled">#999999</color>-->
+    <!--<color name="fab_background">#D32F2F</color>-->
+    <!--<color name="fab_background_pressed">#AA1414</color>-->
+    <!--<color name="fab_icon">#FFFFFF</color>-->
+
+    <!--<color name="splashBackground">#AA1414</color>-->
+
+
+    <color name="dot_dark_screen1">#999999</color>
+    <color name="dot_dark_screen2">#999999</color>
+    <color name="dot_dark_screen3">#999999</color>
+    <color name="dot_dark_screen4">#999999</color>
+    <color name="dot_dark_screen5">#999999</color>
+    <color name="dot_dark_screen6">#999999</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#337ab7</color>
+    <color name="dot_light_screen2">#337ab7</color>
+    <color name="dot_light_screen3">#337ab7</color>
+    <color name="dot_light_screen4">#337ab7</color>
+    <color name="dot_light_screen5">#337ab7</color>
+    <color name="dot_light_screen6">#337ab7</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

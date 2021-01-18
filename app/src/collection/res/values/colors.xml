@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#011e60</color>
+    <color name="colorPrimaryDark">#5D5D5D</color>
+<!--    <color name="colorAccent">#aedcec</color>-->
+    <color name="colorAccent">#0B8E45 </color>
+
+    <color name="stylePrimary">#AA1414</color>
+    <color name="stylePrimaryDark">#AA1414</color>
+
+    <color name="styleWindowBackground">#FFFFFF</color>
+
+    <color name="slidingTabText">#FFFFFF</color>
+    <color name="slidingTabBackground">#D32F2F</color>
+    <color name="slidingTabBackgroundWindow">#FFFFFF</color>
+    <color name="slidingTabIndicator">#FFFFFF</color>
+    <color name="slidingTabDivider">#D32F2F</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="cardText">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="textHint">#999999</color>
+
+
+    <color name="navigationDrawerText">#000000</color>
+    <color name="navigationDrawerTextHeader">#000000</color>
+    <color name="navigationDrawerBackground">#FFFFFF</color>
+    <color name="navigationDrawerBackgroundSelected">#FFFFFF</color>
+    <color name="navigationDrawerDivider">#999999</color>
+    <color name="navigationDrawerEmpty">#FFFFFF</color>
+
+    <color name="textNormal">#000000</color>
+    <color name="textButton">#FFFFFF</color>
+    <color name="button">#AA1414</color>
+
+
+    <color name="listText">#000000</color>
+    <color name="listDivider">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#AA1414</color>
+    <color name="grey">#D0D0D0</color>
+    <color name="textLink">#e54d42</color>
+    <color name="greytransparent">#80999999</color>
+
+    <color name="styleApplyList_Accent">#a51116</color>
+    <color name="styleApplyList_ControlNormal">#FFFFFF</color>
+    <color name="styleApplyList_ControlActivated">#FFFFFF</color>
+    <color name="styleApplyList_ControlHighlight">#FFFFFF</color>
+    <color name="styleApplyList_Primary">#AA1414</color>
+    <color name="styleApplyList_PrimaryDark">#AA1414</color>
+    <color name="styleApplyList_DrawerArrow">#FFFFFF</color>
+    <color name="styleApplyList_TextPrimary">#FFFFFF</color>
+    <color name="styleApplyList_TextSecondary">#FFFFFF</color>
+    <color name="styleApplyList_WindowBackground">#FFFFFF</color>
+    <color name="styleApplyList_NavigationBarColor">#AA1414</color>
+    <color name="styleApplyDetail_Accent">#D32F2F</color>
+    <color name="toolbarBackground">#a51116</color>
+
+    <color name="toolbarTransparent">#00000000</color>
+    <color name="apply_kontakBackground">#FFFFFF</color>
+    <color name="apply_kontakText">#000000</color>
+    <color name="apply_kontakTextButton">#FFFFFF</color>
+    <color name="apply_kontakButton">#aa1414</color>
+    <color name="detail_antarKontrak">#FFFFFF</color>
+    <color name="apply_kendaraanText">#000000</color>
+    <color name="apply_kendaraanTextButton">#FFFFFF</color>
+    <color name="apply_kendaraanButton">#AA1414</color>
+
+    <color name="apply_kendaraanBackground">#FFFFFF</color>
+
+    <!-- getBase FAB -->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="fab_disabled">#999999</color>
+    <color name="fab_background">#D32F2F</color>
+    <color name="fab_background_pressed">#AA1414</color>
+    <color name="fab_icon">#FFFFFF</color>
+
+    <color name="splashBackground">#AA1414</color>
+
+    <color name="dark_redbackground">#8b0000</color>
+
+    <!--<color name="blue_end">#209199</color>-->
+    <!--<color name="blue_start">#aedcec</color>-->
+    <!--<color name="blue_green">#011e60</color>    -->
+
+
+<!--    <color name="blue_end">#209199</color>-->
+<!--    <color name="blue_start">#aedcec</color>-->
+<!--    <color name="blue_green">#0020C2</color>-->
+    <color name="blue_end">#3a99d9</color>
+    <color name="blue_start">#3a99d9</color>
+    <color name="blue_green">#3a99d9</color>
+
+
+<!--    <color name="orange_end">#Ec6224</color>-->
+<!--    <color name="orange_start">#E39A46</color>-->
+    <color name="orange_dark">#Ec6224</color>
+    <color name="orange_light">#FBC02D</color>
+
+    <color name="green_dark">#0B8E45</color>
+    <color name="green_light">#6FB34C</color>
+
+
+
+
+
+</resources>

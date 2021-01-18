@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:id="@+id/lineartxticon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearicon"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/icontxt"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="info"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:text="Informasi Umum"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/styles_backgroundwhite"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/headerTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/headerInfo1"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDesc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="0"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/caraPembayaranDesc"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearbtm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearTop"
+            android:background="@drawable/styles_backgroundwhite"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/headerTxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:text="@string/headerInfo2"
+                android:textColor="@color/white" />
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDesc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="0"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/persyaratanAmbilBpkbDesc"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnBackToinfo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/styles_backgroundwhitesolid"
+            android:state_selected="true"
+            android:text="Kembali Ke Menu Info"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>

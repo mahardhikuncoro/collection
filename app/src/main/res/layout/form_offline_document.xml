@@ -1,0 +1,192 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradation_green"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/surveyFormToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="10dp"
+        app:titleTextColor="@color/white">
+
+        <ImageView
+            android:id="@+id/btnback_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/titletxtform"
+            android:text="Dokumen List Offline"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutButton"
+        android:layout_below="@+id/surveyFormToolbar"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutButton"
+        android:layout_below="@+id/surveyFormToolbar"
+        android:background="@drawable/half_rounded"
+        android:scrollbarThumbVertical="@android:color/transparent">
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearnama"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/titleDocumenType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Document Type"
+                        android:textAllCaps="false"
+                        android:textSize="14sp"
+                        android:typeface="sans" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputspinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingLeft="10dp"
+                        app:errorEnabled="false"
+                        app:passwordToggleEnabled="true"
+                        app:colorControlActivated="@color/red">
+                    <Spinner
+                        android:id="@+id/spinnerDocumentype"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/titleDocumenType"
+                        android:textSize="14sp" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearImage"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titlemage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Upload File"
+                        android:textAllCaps="false"
+                        android:textSize="14sp"
+                        android:typeface="sans" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingLeft="10dp"
+                        app:errorEnabled="false"
+                        app:passwordToggleEnabled="true"
+                        app:colorControlActivated="@color/red">
+                    <ImageView
+                        android:id="@+id/imageSurveyOffline"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_below="@+id/titlemage"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/ic_add"
+                        android:textSize="14sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearnamadocument"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputnamadokumen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="false">
+                        <EditText
+                        android:id="@+id/etnamadocument"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/titlenamadocument"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="Nama Dokumen"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:textSize="14sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSend"
+            android:background="@drawable/gradation_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSubmit"
+            android:textColor="@color/textButton"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

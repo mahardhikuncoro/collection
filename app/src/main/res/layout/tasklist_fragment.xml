@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bckground1"
+    android:layout_below="@+id/appBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutSlider"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <include
+            layout="@layout/slider"/>
+    </LinearLayout>
+
+
+    <com.sembozdemir.viewpagerarrowindicator.library.ViewPagerArrowIndicator
+        android:id="@+id/viewPagerArrowIndicator"
+        android:layout_below="@+id/layoutSlider"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:layout_marginTop="-30dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerNews"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_height="match_parent" />
+
+        </com.sembozdemir.viewpagerarrowindicator.library.ViewPagerArrowIndicator>
+
+    <LinearLayout
+        android:id="@+id/linearMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/viewPagerArrowIndicator">
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/etSearch"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/half_rounded"
+                android:id="@+id/linearTitleSwipe"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:tint="@color/grey"
+                android:src="@drawable/ic_refresh"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:textColor="@color/grey"
+                    android:text="pull down to refresh"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="@color/white">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/swiperefresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                android:id="@+id/taskListRecycleAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                </android.support.v7.widget.RecyclerView>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/shortingFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-150dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearMain"
+        android:src="@drawable/ic_sorting"
+        android:tint="@color/white"
+        app:fabSize="normal"
+        app:borderWidth="0dp"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/textHint</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="android:windowBackground">@color/styleWindowBackground</item>
+        <item name="android:textColorHint">@color/textHint</item>
+        <item name="android:navigationBarColor">@color/greytransparent</item>
+    </style>
+
+    <style name="AppThemeWidget" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorPrimary">@color/textHint</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="android:windowBackground">@color/textHint</item>
+        <item name="android:textColorHint">@color/colorBlack</item>
+    </style>
+
+    <style name="MyErrorText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/styleWindowBackground</item>
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/textHint</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="ThemeSpinner">
+        <item name="colorAccent">#ffa000</item>
+        <item name="colorControlNormal">#ffc107</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@color/green_dark</item>
+    </style>
+
+
+</resources>

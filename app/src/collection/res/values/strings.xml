@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">BCS</string>
+    <string name="app_name">BCS</string>
+    <string name="companyName">BANK BPD BALI COLLECTION SYSTEM</string>
+
+    <string name="buildName">collection</string>
+
+    <string name="loading">Harap Menunggu</string>
+    <string name="requesting">Requesting</string>
+
+    <string name="aboutVersion">Bank BPD Bali Collection System Mobile Versi 1.0.0</string>
+    <string name="aboutCopyright">©2020 BANK BPD BALI</string>
+    
+    <string name="titleDana">Masukkan pendanaan yang anda inginkan</string>
+    <string name="pilihAgunan">Pilih Agunan</string>
+    <string name="pilihTahun">Pilih Tahun</string>
+    <string name="pilihArea">Pilih Area</string>
+    <string name="pilihKota">Pilih Kota</string>
+    <string name="titleJumlahBiaya">Jumlah Pembiayaan</string>
+    <string name="titleHarga">Harga</string>
+    <string name="titleUangMuka">Uang Muka</string>
+    <string name="titleTahunKendaraan">Tahun Kendaraan</string>
+    <string name="titleAreaTT">Area Tempat Tinggal</string>
+    <string name="titleKota">Kota Terdekat</string>
+    <string name="titleSummaryKredit">Summary Kredit</string>
+    <string name="titleDataPribadi">Data Pribadi</string>
+    <string name="titleNama">Nama</string>
+
+    <string name="titleGender">Jenis Kelamin</string>
+    <string name="titleEmail">Email</string>
+    <string name="titleKeteranganAgunan">Keterangan Agunan</string>
+
+    <string name="hintNama">contoh : Ani Surani</string>
+    <string name="hintNoHp">contoh : 08xxxxx</string>
+    <string name="hintKTP">contoh : 94585948694859491</string>
+    <string name="hintEmail">contoh : surani@gmail.com</string>
+    <string name="hintKeterangan">Merek/Tipe Kendaraan</string>
+    <font size="15">Hint here!</font>
+    <string name="hintPassword"><font size="16">Min 8 karakter(Terdapat huruf kapital dan angka)</font></string>
+
+    <string name="buttonHitung">Hitung</string>
+    <string name="buttonLanjut">Lanjut</string>
+    <string name="buttonAjukan">Ajukan</string>
+    <string name="Logout">Keluar</string>
+
+    <string name="simulasiKredit">Simulasi Kredit</string>
+
+
+
+    <string name="note"></string>
+
+    <string-array name="agunan">
+        <item>Pilih Agunan</item>
+        <item>BPKB Mobil</item>
+        <item>BPKB Motor</item>
+    </string-array>
+
+    <string name="errorDanaMin">Dana minimal</string>
+    <string name="errorDanaMinMobil">Pinjaman minimal </string>
+    <string name="errorDanaMinMotor">Pinjaman minimal </string>
+    <string name="errorOtrMin">OTR minimal Rp 50.000.000,-</string>
+    <string name="errorNoAgunan">Harap memilih Agunan</string>
+    <string name="errorNoDana">Harap mengisi Dana</string>
+    <string name="errorNoUangMuka">Harap mengisi Uang Muka</string>
+    <string name="errorDPKurang">Uang Muka minimal </string>
+    <string name="errorDPOver">Uang Muka tidak boleh melebihi Harga</string>
+    <string name="errorNoTahunKendaraan">Harap memilih Tahun Kendaraan</string>
+    <string name="errorMaxTahunKendaraanMobil">Usia Tahun kendaraan tidak boleh lebih dari </string>
+    <string name="errorMaxTahunKendaraanMotor">Usia Tahun kendaraan tidak boleh lebih dari </string>
+    <string name="errorNoAreaTT">Harap Memilih Area Tempat Tinggal</string>
+    <string name="errorNoKotaTerdekat">Harap Memilih Kota Terdekat</string>
+    <string name="errorNoDataNama">Harap mengisi data Nama</string>
+    <string name="errorMaxNama">Karakter terlalu panjang</string>
+    <string name="errorNoDataNoHP">Harap mengisi data No Handphone</string>
+    <string name="errorDataNoHP">Harap mengisi data No Handphone Dengan Benar</string>
+    <string name="errorNoKTP">Harap mengisi data No KTP</string>
+    <string name="errorKTP">KTP Tidak Sesuai</string>
+    <string name="errorMaxNIK">NIK harus 16 angka</string>
+    <string name="errorNoGender">Harap memilih Jenis Kelamin</string>
+    <string name="errorNoEmail">Harap mengisi data Email</string>
+    <string name="errorEmail">Harap mengisi data Email Dengan Benar</string>
+    <string name="errorFormatEmail">Format Email tidak sesuai (contoh email@gmail.com)</string>
+    <string name="errorNoKeterangan">Harap mengisi Keterangan</string>
+    <string name="errorMaxKeterangan">Keterangan maksimal 50 karakter</string>
+    <string name="errorNoHpDuplicate">Nomor Sudah Terdaftar</string>
+    <string name="errorKetReferral">Harap isi Keterangan referal</string>
+    <string name="errorNoReferral">Nomor Referal Terlalu Panjang</string>
+    <string name="errorKetNumReferral">Keterangan Referal Terlalu Panjang</string>
+    <string name="errorKetNoNumReferral">Harap isi Nomor Referal</string>
+    <string name="errorNoNumReferralAB">Kode referral yang anda masukkan untuk sementara tidak bisa digunakan, mohon gunakan aplikasi smmf agency</string>
+    <string name="errorNoNumReferralP">Kode referral salah/ tidak di-izinkan</string>
+
+    <string name="errorPasswordNotMatch">Password tidak sesuai</string>
+    <string name="erroroldpassword">Password lama anda salah</string>
+    <string name="successchangepass">Password berhasil diubah.</string>
+    <string name="successresetpass">Silahkan cek email konfirmasi reset password</string>
+    <string name="asklogin">Mohon melakukan login terlebih dahulu.</string>
+    <string name="successubmitppk">Request list ppk baru berhasil.</string>
+    <!--<string-array name="tahun_kendaraaan_kepemilikan">
+        <item>Pilih Tahun</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+    </string-array>-->
+
+
+    <string name="errorDataEmpty">Harap mengisi data dengan lengkap</string>
+    
+
+    <string name="errorNoInternetConnection">Cek koneksi internet atau wifi</string>
+    <string name="errorConnection">Tidak terhubung dengan sistem. Silakan dicoba beberapa saat lagi.</string>
+    <string name="errorBackend">Mohon kontak helpdesk cek sistem.</string>
+    <string name="errorIncompatibleVersion">Sudah tersedia versi lebih baru. Silakan perbarui aplikasi ini.</string>
+    <string name="errorEmptyForm">Harap mengisi seluruh kolom pada form sebelum menyimpan.</string>
+    <string name="errorEmpty">Tidak ada data</string>
+    <string name="errorDownloadFailure">Unduh gagal. Silahkan coba lagi.</string>
+    <string name="errorUploadFailure">Unggah gagal. Silahkan coba lagi.</string>
+    <string name="errorEmptyCode">Harap memilih Status Panggilan dan Rincian Panggilan</string>
+    <string name="errorEmptyPtp">Harap mengisi Tanggal Janji Bayar</string>
+    <string name="errorDate">Tanggal Janji Bayar tidak boleh lebih kecil dari Tanggal Penanganan</string>
+    <string name="errorEmptyHistory">Tidak ada data Riwayat Penanganan</string>
+    <string name="errorJwtEmpty">ID pinjaman nasabah tidak ditemukan</string>
+    <string name="errorJwtFail">Pengecekan gagal. Silahkan coba lagi.</string>
+    <string name="errorRefreshData">Data Gagal Diperbaharui</string>
+    <string name="imeinotmatch">Perangkat terdaftar pada pengguna lain silahkan hubungi callcenter kami di 08001588588</string>
+    <string name="imeiusedbyother">Perangkat terdaftar pada pengguna lain silahkan hubungi callcenter kami di 08001588588</string>
+
+    <string name="downloadData">Unduh data</string>
+    <string name="downloadInProgress">Sedang diunduh</string>
+    <string name="downloadCompleted">Unduh selesai</string>
+    <string name="uploadInProgress">Sedang diunggah</string>
+    <string name="uploadCompleted">Unggah selesai</string>
+
+
+    <string name="loginCheck">Cek Login</string>
+    <string name="addPin">Tentukan Pin</string>
+    <string name="addPinInfo">Masukkan pin yang dikehendaki</string>
+    <string name="addPinPin">Pin</string>
+    <string name="addPinRepeat">Ulangi Pin</string>
+    <string name="addPinRequired">Pin dan Ulangi Pin harus diisi</string>
+    <string name="addPinSame">Pin dan Ulangi Pin harus sama</string>
+    <string name="addPinNumber">Pin harus 4 angka</string>
+    <string name="changePin">Ubah Pin</string>
+    <string name="changePinInfo">Masukkan kata sandi dari Akun anda untuk melanjutkan</string>
+    <string name="changePinPassword">Kata Sandi</string>
+    <string name="changePinRequired">Kata Sandi harus diisi</string>
+    <string name="changePinUnauthorized">Salah Kata Sandi</string>
+    <string name="register">Registrasi</string>
+    <string name="registerUsername">Nama Pengguna</string>
+    <string name="registerPassword">Kata Sandi</string>
+    <string name="registerInfo1">Masukkan nama pengguna serta kata sandi yang sesuai dengan akun MufInS</string>
+    <string name="registerInfo2">Akun hanya dapat digunakan pada 1(satu) perangkat. Jika sudah pernah registrasi di perangkat lain, mohon keluar terlebih dahulu</string>
+    <string name="registerRequired">Nama Pengguna dan Kata Sandi harus diisi</string>
+    <string name="registerUnauthorized">Salah nomer Telepon atau Kata Sandi, atau Anda tidak memiliki Hak Akses</string>
+    <string name="registerDuplicate">Anda masih terdaftar untuk perangkat seluler lain. Keluar dari perangkat sebelumnya untuk registrasi di perangkat ini. </string>
+    <string name="registerInactive">Anda sudah tidak aktif.</string>
+    <string name="unregister">Keluar</string>
+    <string name="unregisterInfo">Apakah anda yakin keluar dari aplikasi ini?</string>
+    <string name="retypePass">Ulangi kata sandi</string>
+    <string name="incompleteregistration">Proses registrasi anda belum selesai, mohon tunggu e-mail aktivasi.</string>
+
+    //Mail
+    <string name="mailsuccess">Email berhasil dikirim !</string>
+    <string name="mailmatch">Kode Sesuai !</string>
+    <string name="mailnotmatch">Kode Tidak Sesuai !</string>
+
+
+    <string name="phonenotfound">Anda Belum Terdaftar, silahkan melakukan registrasi</string>
+    <string name="memberqueued">Data Anda sedang di verifikasi. Mohon menunggu untuk mendapatkan Kode Agent Referal.</string>
+    <string name="noPPK">Harap isi Nomor PPK !</string>
+    <string name="nonomorrek">Harap isi Nomor Rekening !</string>
+
+    //MGM
+
+    <string name="tanpamodal">TANPA SYARAT &amp; TANPA MODAL</string>
+    <string name="bonustahunan">BONUS TAHUNAN &amp; UMROH</string>
+
+    //USER LOGIN
+    <string name="buatPassword">Anda Belum memiliki password, Mohon melengkapi data.</string>
+    <string name="asklogout">Anda yakin ingin keluar dari aplikasi ?</string>
+    <string name="gantipass">Ganti Password</string>
+    <string name="oldpass">Kata Sandi Lama</string>
+    <string name="newpass">Kata Sandi Baru</string>
+    <string name="retypeNewPass">Ulangi kata sandi baru</string>
+
+
+    <string name="uploadby">SIMASKU</string>
+    <string name="pushNotif">Push Notification</string>
+    <string name="askTurnOff">Matikan notifikasi pengingat anda ?</string>
+    <string name="askTurnON">Nyalakan notifikasi pengingat anda ?</string>
+    <string name="criteria_app_name">SIMASKU</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">simaskuPush</string>
+
+    <string name="askRefNumb"> Anda bukan debitur Sinarmas Multifinance. Silahkan hubungi kantor Sinarmas Multifinance terdekat untuk mendapatkan Kode Agent. </string>
+    <string name="headerInfo1"> Cara Pembayaran Angusuran </string>
+    <string name="headerInfo2"> Persyaratan Pengambilan BPKB </string>
+    <string name="backtoinfo"> Kembali Ke Menu Panduan Transfer </string>
+    <string name="panduantransf"> Bersama ini kami (PT Sinarmas Multifinance / PT.SMMF) memberitahukan kepada seluruh nasabah PT. SMMF untuk melakukan angsuran/ cicilan dengan menggunakan Nomor Virtual Account sebagai rekening tujuan Virtual Account adalah rekening anak dari rekening induk PT SMMF yang tercatat di Bank Sinarmas yang akan diberikan kepada seluruh nasabah PT SMMF. Setiap transaksi yang dilakukan melalui rekening Virtual Account tersebut, langsung tercatat atas kontrak nasabah yang bersangkutan.
+        \n\nTujuan dari pengguna Virtual Account ini adalah untuk memberikan kelancaran serta keleluasaan kepada nasabah PT SMMF dalam melakukan pembayaran angsuran/cicilan.
+        \n\nMekanisme pembayaran ini cukup fleksible, dimana nasabah bisa melakukan transaksi pembayaran melalui mesin ATM (baik ATM Bank Sinarmas ataupun Bank lain) atau Teller Bank Sinarmas. Pembayaran melalui mesin ATM dapat dilakukan disemua kios ATM yang telah terhubung dengan ALTO/ ATM Bersama/ Prima.\n </string>
+    <string name="headerInfoTrans1"> Panduan Transfer </string>
+    <string name="headerInfoTrans1Button">Panduan Pembayaran Angsuran</string>
+    <string name="headerInfoTrans2"> Pembayaran Melalui Mesin ATM </string>
+    <string name="headerInfoTrans3"> Pembayaran Melalui ATM Bank Lain </string>
+    <string name="headerInfoTrans4"> Pembayaran Melalui Teller </string>
+    <string name="headerInfo3"> Persyaratan Pengambilan BPKB </string>
+    <string name="headerInfo4"> Persyaratan Pengambilan BPKB </string>
+    <string name="headerInfoTrans"> Panduan Transfer </string>
+    <string name="headerInfodetailtransf"> Pembayaran Melalui Mesin ATM Bank Sinarmas </string>
+    <string name="headerInfodetailtransfsinarmas"> ATM Bank Sinarmas </string>
+    <string name="headerInfodetailtransfatmlain"> Yang terhubung jaringan ALTO/ATM Bersama/ Prima </string>
+    <string name="headerInfodetailtransTunai"> Setor tunai </string>
+
+    <string name="stepMesinAtm"> 1. Masukkan Kartu ATM Sinarmas, input pin, selanjutnya pilih menu TRANSFER
+         \n\n2. Tampilan Layar Rek Bank Sinarmas dan Rek Bank Lain pilih REKENING BANK SINARMAS
+         \n\n3.  Tampilan Layar Rek Sendiri dan Rek Nasabah Lain pilih REKENING NASABAH LAIN
+         \n\n4. Tampilan Layar Rekening Tujuan Transfer, selanjutnya input 16 angka nomor Virtual Account (pastikan angka yang diinput sudah benar)
+         \n\n5. Tampilan Layar Benar dan Salah selanjutnya pilih BENAR
+         \n\n6. Tampilan Layar Jumlah Transaksi ketik / isi jumlah besar angsuran / cicilan yang harus dibayar
+         \n\n7. Tampilan Layar Benar atau Salah pilih BENAR
+         \n\n8. Tampilan Layar Nomor Referensi pilih BENAR
+         \n\n9. Tampilan Layar Konfirmasi Transfer terdapat pilihan YA atau TIDAK. Pada tahap ini tampilan layar berupa keterangan antara lain :
+         \n\u0009\u0009- Nomor virtual
+         \n\u0009\u0009- SMMF QQ Nama Nasabah
+         \n\u0009\u0009- Nomor Virtual Nasabah
+         \n\u0009\u0009- Jumlah transfer
+         \n\n10. jika sudah BENAR/VALID, maka KONFIRMASI TRANSFER dapat dipilih YA.\n</string>
+
+    <string name="stepMesinAtmLain">"Tampilan Layar pada masing-masing ATM Bank berbeda- beda . Untuk pembayaran angsuran/ cicilan:
+        \n1. Cari / pilih menu TRANSFER selanjutnya pilih transfer ke Rekening Bank Lain.
+        \n2. Pada saat tampilan layar ATM meminta untuk memasukkan Nomor Rekening Tujuan, pastikan didahului dengan memasukkan Kode Bank Sinarmas yaitu 153.
+        \n3. Selanjutnya diikuti dengan 16 angka nomor Virtual Account masing-masing nasabah."
+ </string>
+
+    <string name="stepTransferTeller"> Untuk saat ini pembayaran angsuran / cicilan dengan SETORAN TUNAI dapat dilakukan di Teller Bank Sinarmas. Cara pembayaran adalah dengan:
+        \n\n1. Mengisi Slip Setoran Bank Sinarmas seperti biasa.
+        \n\n2. Harap diperhatikan bahwa pada saat pengisian Nomor Rekening Tujuan/ Penerima, di isi dengan Nomor Virtual Account masing-masing nasabah.</string>
+    <string name="stepMesinAtmNote"> Note:
+        \n* No Virtual Account dan tata cara pembayaran tidak pernah di ubah, agar berhati-hati dengan penipuan.
+        \n* Simpanlah  bukti pembayaran / Struk Transaksi Anda. </string>
+
+    <string name="caraPembayaranDesc"> "Pembayaran angsuran kredit di SMMF dapat melalui:
+        \n1. Melalui Cabang SMMF terdekat.
+        \n2. Melalui Online Payment:
+        \n\u0009\u0009- Melalui Autodebet Bank Sinar Mas.
+        \n\u0009\u0009- Virtual Account
+        \n\u0009\u0009- Transfer Bank Sinar Mas
+        \n\n3. Melalui Merchant Duitku*</string>
+
+    <string name="stepAtmNote"> Note:
+        \n*Dalam proses Under Construction </string>
+
+    <string name="persyaratanAmbilBpkbDesc">Dokumen persyaratan pengambilan BPKB untuk Debitur:
+        \n\n- Kwitansi asli pembayaran terakhir/Bukti  pe-
+    lunasan.
+        \n- Identitas asli yang masih berlaku (KTP/SIM)
+    </string>
+
+    <string name="infoTitle1">Kejar impian Anda untuk memiliki kendaraan idaman bersama Sinar Mas Multifinance
+    </string>
+
+    <string name="infoDesc1">Sinar Mas Multifinance menawarkan kemudahan bagi para nasabahnya untuk memiliki kendaraan baru ataupun bekas, berbagai merk, dengan persyaratan kredit yang mudah, bunga rendah dan sistem penyimpanan BPKB yang aman.
+        \n\nSinar Mas Multifinance juga memiliki pilihan Kredit Kepemilikan dan bekerja sama dengan beberapa merchant untuk mempermudah pembayaran kredit.
+    </string>
+
+
+    <string name="infoTitle2">Kredit untuk berbagai kebutuhan? Kami solusinya!
+    </string>
+
+    <string name="infoDesc2">Kredit dengan Agunan merupakan jenis pembiayaan kebutuhan Konsumen atas Barang dan Jasa dengan menjaminkan BPKB kendaraan Motor / Mobil. Syarat mudah, dan proses cepat.
+        Segera hubungi cabang terdekat di kotamu atau hubungi SMMF Care di 0 800 1 588 588 untuk informasi lebih lanjut.       </string>
+
+    <string name="infoTitle3">Jadi Mitra Bisnis kami dan raih komisi tanpa batas serta bonus lainnya
+    </string>
+
+    <string name="infoDesc3">Partner Simasku merupakan mitra bisnis kami yang bertindak sebagai perantara jasa dari produk-produk Sinar Mas Multifinance.
+        \n\nDengan menjadi mitra bisnis kami, Anda bisa mendapatkan income setiap hari dengan mereferensikan teman dan kenalanmu, komisi tanpa batas, tanpa syarat dan modal, gratis fasilitas seminar dari SMMF, dan bonus tahunan.
+    </string>
+
+    <string name="infoTitle4">Syarat serta proses mudah.
+    </string>
+
+    <string name="infoDesc4">Persyaratan:
+        \n\u0009- Memiliki HP Android
+        \n\u0009- memiliki KTP
+        \n\u0009- Memiliki No. Handphone dan Alamat E-mail
+         </string>
+
+    <string name="infNote">Segera hubungi cabang terdekat di kotamu atau hubungi <b>SMMF Care</b> di 0 800 1 588 588 untuk informasi lebih lanjut.
+    </string>
+    <string name="infNote4"> Dapat melakukan pendaftaran melalui Partner SIMASKU Atau segera hubungi cabang terdekat di kotamu atau hubungi <b>SMMF Care</b> di 0 800 1 588 588 untuk informasi lebih lanjut.
+    </string>
+    <string name="titlePpk">Masukkan No PPK (<i>Perjanjian Pembiayaan Konsumen</i>) Anda
+    </string>
+    <string name="linkLihatRequest"><u>Lihat Permintaan Anda >></u>
+    </string>
+    <string name="linkTambahPPK"><u>Tambahkan PPK baru anda ke list</u>
+    </string>
+    <string name="smmfcare"><i><b>SMMF</b></i> CARE
+    </string>
+    <string name="smmfcareDesc">Layanan yang dapat di gunakan oleh Debitur untuk berinteraksi dengan Sinar Mas Multifinance, seperti informasi, keluhan, serta memberikan masukan dan saran.
+    </string>
+
+    <string name="cabangsmmf">Cabang <i><b>SMMF</b></i>
+    </string>
+
+
+
+    <string name="packageProvider">id.collection.mobile.application</string>
+
+    <string name="askregister">Dont have account ?<font color='#0000FF'><u>\n Register now ! term and conditions</u></font></string>
+    <string name="next">Masuk</string>
+    <string name="save">next</string>
+    <string name="errorEmptyUsername">Username can not empty !</string>
+    <string name="errorEmptyPassword">Password can not empty !</string>
+    <string name="rememberme">remember me</string>
+    <string name="askforgetpass">forgot password ?</string>
+    <string name="password">Kata Sandi</string>
+    <string name="errorPassword">Kata Sandi Tidak Sesuai !</string>
+    <string name="errorUsername">Nama Pengguna Tidak Sesuai!</string>
+    <string name="latestTask"> Latest Task</string>
+    <string name="seeall">See All</string>
+    <string name="fullentry">Full Data Entry</string>
+    <string name="oldPass">Password Lama</string>
+    <string name="newPass">Password Baru</string>
+    <string name="changePass">Ganti Password</string>
+    <string name="invalidToken">Token Kadaluarsa Silahkan Melakukan Login</string>
+    <string name="passnotmatch">Konfirmasi password tidak sesuai !</string>
+    <string name="successupdatepassword">Password Berhasil diubah !</string>
+    <string name="titleBranchName">Cabang</string>
+    <string name="titleGroupname">Group</string>
+    <string name="titleuserid">User Id</string>
+    <string name="dataempty">Data not available.</string>
+    <string name="successubmit">Data berhasil di submit</string>
+    <string name="successbacktopool">Data berada pada pool</string>
+    <string name="failSubmit">Terjadi kesalahan Submit data</string>
+    <string name="askSubmit">Anda yakin akan melakukan submit data ?</string>
+    <string name="askAssign">Anda yakin akan memilih aplikasi ini ?</string>
+    <string name="askReverse">Anda yakin akan melakukan reverse data ?</string>
+    <string name="reverse">Reverse</string>
+    <string name="history">History</string>
+    <string name="rootedDevice">Root device detected !</string>
+
+
+
+</resources>

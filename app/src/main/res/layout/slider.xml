@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:layout_below="@+id/appBar">
+
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/banner_slider_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:selected_color="@color/green_dark"
+            android:gravity="center"
+            android:layout_marginTop="170dp"
+            android:background="@color/toolbarTransparent"
+            app:unselected_color="@color/green_light" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

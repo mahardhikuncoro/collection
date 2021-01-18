@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:elevation="7dp"
+                android:id="@+id/selectbranchLayout"
+                android:orientation="vertical"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/selectBranchLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Urutkan data"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/fieldBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectbranchLayout"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:elevation="7dp"
+                android:orientation="vertical"
+                android:background="@color/apply_kendaraanBackground"
+                android:padding="10dp">
+
+                <RadioGroup
+                    android:id="@+id/rbGroupSort"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/rbTerbaru"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@color/white"
+                        android:button="@null"
+                        android:drawablePadding="30dp"
+                        android:drawableRight="@android:drawable/btn_radio"
+                        android:text="Data Terbaru"
+                        android:textSize="20dip"
+                        android:gravity="center"/>
+
+                    <RadioButton
+                        android:id="@+id/rbTerlama"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawablePadding="30dp"
+                        android:drawableRight="@android:drawable/btn_radio"
+                        android:text="Data Terlama"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RadioGroup>
+                share
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/branchCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/buttonBack"
+            android:textColor="@color/white"
+            android:background="@color/orange_light"/>
+        <Button
+            android:id="@+id/branchSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/buttonSimpan"
+            android:textColor="@color/white"
+            android:background="@color/orange_light"/>
+    </LinearLayout>
+
+</LinearLayout>

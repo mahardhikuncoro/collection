@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "561011545044",
+    "firebase_url": "https://smmf-apo.firebaseio.com",
+    "project_id": "smmf-apo",
+    "storage_bucket": "smmf-apo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561011545044:android:8999e729976c780f",
+        "android_client_info": {
+          "package_name": "id.collection.mobile.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561011545044-u75r8van5t4i8h3b1m04lud36udak4io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc2-3marQA7LgAH6SsvRMOs96bPOiCRbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
